@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="A short browser based and mobile friendly puzzle game consisting of 10 levels of varying difficulty.">
+        <meta name="keywords" content="Puzzle, Game">
+        <meta name="author" content="Magnus Engström">
+        <meta name="viewport" content="width=device-width, initial-scale=0.9, user-scalable=no">
+        <meta property='og:image' content='https://puzzle1.magnusengstrom.com/static/img/share_img.png' />
+        <meta property='og:url' content='https://puzzle1.magnusengstrom.com/' />
+        <meta property="og:title" content="Puzzle1" />
+        <meta property="og:description" content="A short and mobile friendly puzzle game that you can play in your web browser. consisting of 10 levels of varying difficulty." />
+        <title>Puzzle1 - A short and mobile friendly puzzle game that you can play in your web browser</title>
+        <link rel="icon" type="image/png" href="static/img/favicon.png">
+        <link rel="stylesheet" media="screen" href="static/css/styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <canvas id="game-canvas" width="400" height="400"></canvas> 
+            <div id="user-ui"></div>
+            <div id="footer">
+                <a href="https://github.com/magnus-engstrom/puzzle1">
+                    <img src="/static/img/github.png" title="Source code on Gitub" />
+                </a>
+                <a href="https://www.linkedin.com/in/magnus-engstr%C3%B6m-7558205b/">
+                    <img src="/static/img/linkedin.png" title="Profile on LinkedIn" />
+                </a>
+            </div>
+            <div id="end">
+                🏆
+                <div id="total-score"></div>
+            </div>
+        </div>
+    </body>
+    <script src="/static/js/tiles.js"></script>
+    <script src="/static/js/player.js"></script>
+    <script src="/static/js/maps.js"></script>
+    <script src="/static/js/level.js"></script>
+    <script src="/static/js/game.js"></script>
+</html>
