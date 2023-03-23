@@ -120,7 +120,7 @@ const Game = (() => {
             renderLevel();
             if (!tickerStarted) updateLevel();
             tickerStarted = true;
-        }, 100 );
+        }, 250 );
         fetch('/stats?id='+id);
     };
     renderLevel = () => {
